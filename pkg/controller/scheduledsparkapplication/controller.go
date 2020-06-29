@@ -37,12 +37,12 @@ import (
 	"k8s.io/client-go/util/retry"
 	"k8s.io/client-go/util/workqueue"
 
-	"github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/apis/sparkoperator.k8s.io/v1beta2"
-	crdclientset "github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/client/clientset/versioned"
-	crdscheme "github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/client/clientset/versioned/scheme"
-	crdinformers "github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/client/informers/externalversions"
-	crdlisters "github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/client/listers/sparkoperator.k8s.io/v1beta2"
-	"github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/config"
+	"github.com/AiflooAB/spark-on-k8s-operator/pkg/apis/sparkoperator.k8s.io/v1beta2"
+	crdclientset "github.com/AiflooAB/spark-on-k8s-operator/pkg/client/clientset/versioned"
+	crdscheme "github.com/AiflooAB/spark-on-k8s-operator/pkg/client/clientset/versioned/scheme"
+	crdinformers "github.com/AiflooAB/spark-on-k8s-operator/pkg/client/informers/externalversions"
+	crdlisters "github.com/AiflooAB/spark-on-k8s-operator/pkg/client/listers/sparkoperator.k8s.io/v1beta2"
+	"github.com/AiflooAB/spark-on-k8s-operator/pkg/config"
 )
 
 var (

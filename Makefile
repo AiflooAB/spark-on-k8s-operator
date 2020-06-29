@@ -2,7 +2,7 @@
 .SILENT:
 .PHONY: clean-sparkctl
 
-SPARK_OPERATOR_GOPATH=/go/src/github.com/GoogleCloudPlatform/spark-on-k8s-operator
+SPARK_OPERATOR_GOPATH=/go/src/github.com/AiflooAB/spark-on-k8s-operator
 DEP_VERSION:=`grep DEP_VERSION= Dockerfile | awk -F\" '{print $$2}'`
 BUILDER=`grep "FROM golang:" Dockerfile | awk '{print $$2}'`
 UNAME:=`uname | tr '[:upper:]' '[:lower:]'`
@@ -37,6 +37,6 @@ install-sparkctl: | sparkctl/sparkctl-darwin-amd64 sparkctl/sparkctl-linux-amd64
 build-api-docs:
 	hack/api-ref-docs \
 	-config hack/api-docs-config.json \
-	-api-dir github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/apis/sparkoperator.k8s.io/v1beta2 \
+	-api-dir github.com/AiflooAB/spark-on-k8s-operator/pkg/apis/sparkoperator.k8s.io/v1beta2 \
 	-template-dir hack/api-docs-template \
 	-out-file docs/api-docs.md

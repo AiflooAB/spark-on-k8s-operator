@@ -30,7 +30,7 @@ import (
 	"k8s.io/kubectl/pkg/describe"
 	"k8s.io/kubectl/pkg/describe/versioned"
 
-	appFramework "github.com/GoogleCloudPlatform/spark-on-k8s-operator/test/e2e/framework"
+	appFramework "github.com/AiflooAB/spark-on-k8s-operator/test/e2e/framework"
 )
 
 type describeClient struct {

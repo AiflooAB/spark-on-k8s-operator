@@ -29,10 +29,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	spov1beta2 "github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/apis/sparkoperator.k8s.io/v1beta2"
-	crdclientfake "github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/client/clientset/versioned/fake"
-	crdinformers "github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/client/informers/externalversions"
-	"github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/config"
+	spov1beta2 "github.com/AiflooAB/spark-on-k8s-operator/pkg/apis/sparkoperator.k8s.io/v1beta2"
+	crdclientfake "github.com/AiflooAB/spark-on-k8s-operator/pkg/client/clientset/versioned/fake"
+	crdinformers "github.com/AiflooAB/spark-on-k8s-operator/pkg/client/informers/externalversions"
+	"github.com/AiflooAB/spark-on-k8s-operator/pkg/config"
 )
 
 func TestMutatePod(t *testing.T) {

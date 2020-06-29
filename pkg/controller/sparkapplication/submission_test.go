@@ -18,18 +18,19 @@ package sparkapplication
 
 import (
 	"fmt"
-	"github.com/google/uuid"
 	"reflect"
 	"sort"
 	"strconv"
 	"testing"
+
+	"github.com/google/uuid"
 
 	"github.com/stretchr/testify/assert"
 
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/apis/sparkoperator.k8s.io/v1beta2"
+	"github.com/AiflooAB/spark-on-k8s-operator/pkg/apis/sparkoperator.k8s.io/v1beta2"
 )
 
 const (

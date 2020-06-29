@@ -19,7 +19,7 @@ language: go
 go:
   - 1.14.x
 
-go_import_path: github.com/GoogleCloudPlatform/spark-on-k8s-operator
+go_import_path: github.com/AiflooAB/spark-on-k8s-operator
 
 script:
   - go test -v ./...

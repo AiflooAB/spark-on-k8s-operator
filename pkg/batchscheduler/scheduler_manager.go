@@ -22,8 +22,8 @@ import (
 
 	"k8s.io/client-go/rest"
 
-	"github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/batchscheduler/interface"
-	"github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/batchscheduler/volcano"
+	schedulerinterface "github.com/AiflooAB/spark-on-k8s-operator/pkg/batchscheduler/interface"
+	"github.com/AiflooAB/spark-on-k8s-operator/pkg/batchscheduler/volcano"
 )
 
 type schedulerInitializeFunc func(config *rest.Config) (schedulerinterface.BatchScheduler, error)

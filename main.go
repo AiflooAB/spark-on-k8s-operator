@@ -40,14 +40,14 @@ import (
 	"k8s.io/client-go/tools/leaderelection/resourcelock"
 	"k8s.io/client-go/tools/record"
 
-	"github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/batchscheduler"
-	crclientset "github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/client/clientset/versioned"
-	crinformers "github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/client/informers/externalversions"
-	operatorConfig "github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/config"
-	"github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/controller/scheduledsparkapplication"
-	"github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/controller/sparkapplication"
-	"github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/util"
-	"github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/webhook"
+	"github.com/AiflooAB/spark-on-k8s-operator/pkg/batchscheduler"
+	crclientset "github.com/AiflooAB/spark-on-k8s-operator/pkg/client/clientset/versioned"
+	crinformers "github.com/AiflooAB/spark-on-k8s-operator/pkg/client/informers/externalversions"
+	operatorConfig "github.com/AiflooAB/spark-on-k8s-operator/pkg/config"
+	"github.com/AiflooAB/spark-on-k8s-operator/pkg/controller/scheduledsparkapplication"
+	"github.com/AiflooAB/spark-on-k8s-operator/pkg/controller/sparkapplication"
+	"github.com/AiflooAB/spark-on-k8s-operator/pkg/util"
+	"github.com/AiflooAB/spark-on-k8s-operator/pkg/webhook"
 )
 
 var (
